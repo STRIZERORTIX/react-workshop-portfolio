@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Orbitron',
-      secondary: 'Rajdhani',
+      secondary: 'Poppins',
       tertiary: 'Aldrich',
     },
     container: {
@@ -23,7 +23,7 @@ module.exports = {
         accent: '#00fff5',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
+        site: "url('./assets/site-bg.png')",
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
       },
