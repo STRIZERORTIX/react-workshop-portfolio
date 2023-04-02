@@ -6,7 +6,7 @@ const Contact = () => {
   return(
       <section className="py-16 lg:section" id="contact">   
         <div className="container mx-auto">
-          <div className='flex flex-col lg:flex-row'>
+          <div className='flex flex-col'>
             { /* Text */ }
             <motion.div 
               variants={fadeIn('right', 0.3)}
