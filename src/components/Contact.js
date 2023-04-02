@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
 
@@ -22,14 +22,8 @@ const Contact = () => {
             </motion.div>
 
             { /* Form */ }
-            <motion.form
-              variants={fadeIn('left', 0.3)}
-              initial='hidden'
-              whileInView={'show'}
-              viewport={{once: false, amount:0.3}}
-              className='flex-l border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'
-            >
-              <input 
+            <motion.form className='flex-l border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
+              <input
                 className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
                 type="text" 
                 placeholder='Your name'
